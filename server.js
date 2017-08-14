@@ -63,12 +63,12 @@ var htmltemplate=`
            <div>
                <a href="/">Home</a>
                <hr/>
-               <h3>
+               <div>
                 ${title}
-              </h3>
-                <h3>
+              </div>
+                <div>
                 ${heading}
-              </h3>
+              </div>
               <div>
                   ${date}
               </div>
