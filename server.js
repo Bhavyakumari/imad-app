@@ -84,7 +84,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/:articlename',function(req,res)
+app.get('/:articlename',function(req, res)
 //articlename=article-one
 //article[articlename]={} content will be the content of article one
 {
