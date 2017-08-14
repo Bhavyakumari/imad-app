@@ -84,6 +84,12 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+var counter=0;
+app.get('counter', function(req,res) {
+    counter = counter +1;
+    res.send(counter,tosting());
+});
+
 app.get('/:articlename',function(req, res)
 //articlename=article-one
 //article[articlename]={} content will be the content of article one
