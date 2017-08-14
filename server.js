@@ -21,7 +21,7 @@ var aricleone={
                       this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my frist article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article.
                      </p>`
 };
-function createtempalate (data){
+function createtemplate (data){
     var title=data.title;
     var date=data.date;
     var heading=data.heading;
