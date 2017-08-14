@@ -88,7 +88,7 @@ app.get('/:articlename',function(reg,res)
 //articlename=article-one
 //article[articlenae]={} content will be the content of article one
 {
-    var articlename= req.params.articlename;
+    var articlename = req.params.articlename;
     res.send(createtemplate(articles[articlename]));
 });
 
