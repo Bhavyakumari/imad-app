@@ -6,19 +6,20 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var aricle one={
+var aricleone={
     title:'article one/bhavya kumari',
     heading:'article one',
     date:'aug 14,2017',
-    content: `<p>
+    content: `
+                    <p>
                       this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first  article. this is my content for my first  article.
-                  </p>
-                  <p>
+                    </p>
+                    <p>
                       this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for myfirst article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article.
-                  </p>
-                  <p>
+                    </p>
+                    <p>
                       this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my frist article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article. this is my content for my first article.
-                  </p>`
+                     </p>`
 };
 function createtempalate (data){
     var title=data.title;
